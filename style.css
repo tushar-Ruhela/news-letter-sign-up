@@ -1,0 +1,179 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form{
+    width: 250px;
+    height: 530px;
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: hsl(0,0%,100%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: hsl(235, 18%, 26%);
+    
+}
+.illustration{
+    width: 270px;
+
+}
+h1{
+    color: hsl(234, 29%, 20%);
+    }
+.about{
+    display: block;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+        }
+        .points img{
+            height:15px;
+            width: auto;
+        }
+form{
+    margin-top: 10px;
+}
+
+label{
+        color: hsl(234, 29%, 20%);
+font-size: 10px;
+font-weight: 500;
+
+}
+input{
+height: 35px;
+width: 95%;
+max-width:100% ;
+border-radius: 5px;
+border:1px solid hsl(231, 7%, 60%);
+margin-top: 5px;
+}
+
+
+
+button{
+    margin-top: 0px;
+    width: 98%;
+    height: 38px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0,0%,100%);
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+
+
+.subscribe{
+    height: 600px;
+    width: 250px;
+    display: none;
+    margin: auto;
+
+}
+.dismis{
+height: 7vh;
+width: 100%;
+background-color: hsl(234, 29%, 20%);
+display: flex;
+align-items: center;
+justify-content: center;
+    color: hsl(0,0%,100%);
+    border-radius: 5px;
+    margin-top: 190px;
+
+    
+}
+.dismis:hover{
+    background-color:  hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+button:hover{
+    background-color:  hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+@media screen and (min-width:481px){
+    body{
+        background-color:  hsl(234, 29%, 20%);
+    }
+    .Form{
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(0,0%,100%);
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 20vh;
+        
+    }
+    .illustration{
+    height: 300px;
+    width: 200px;
+       background-image: url(assets/images/illustration-sign-up-desktop.svg);
+       background-position: center;
+       background-size:cover;
+    
+    }
+   
+    .about{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .points{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+    }
+    input{
+        height: 35px;
+        width: 90%;
+        }
+        button{
+            margin-top: 0px;
+            width: 93%;
+        }
+        .subscribe{
+            height: 260px;
+            width: 250px;
+            margin: auto;
+            background-color: hsl(0,0%,100%);
+            font-size: 12px;
+            border-radius: 5px;
+            padding: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        margin-top: 100px;
+        }
+        .dismis{
+        height: 7vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            color: hsl(0,0%,100%);
+            border-radius: 5px;
+            margin-top: 0px;
+        margin-left: 25px;            
+    
+        }
+}
